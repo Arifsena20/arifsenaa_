@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    scroll-behavior: smooth;
+}
+
+
+
+.navigasi{
+    background-color:black;
+    width: 100%;
+    min-height: 70px;
+    color: white;
+}
+
+.logo {
+    float: left; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu{
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu ul li a:hover {
+    color: darkgray;
+}
+
+.banner{
+    height: 500px;
+    display: flex;
+    background-color: gray;background: linear-gradient(#212121 0%, #515050 40%, #b8b6b6 100%)
+}
+
+.banner img{
+    height: 450px;
+    max-width: 350px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.box-pendidikan{
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.box-kiri img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    
+}
+
+.box-tengah img{
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    
+}
+
+.box-kanan img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    max-width: 300px;
+    max-height: 320px;
+    background-color: darkgray;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 55px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #918f8f;
+    color: white;
+}
+
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px, 20px;
+
+}
+
+.box-pengalaman {
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+}
+
+
+.osis {
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 40px 10px 10px 10px;
+    padding: 20px 20px;
+}
+
+.osis1 {
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.osis2 {
+    min-height: 250px;
+    max-width: 300px;
+}
+
+.osis3 {
+    min-height: 250px;
+    max-width: 300px;
+}
+
+.dp {
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 40px 10px 10px 10px;
+    padding: 20px 20px;
+}
+
+
+.dp1 {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.dp2 {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.dp3 {
+    min-height: 300px;
+    max-width: 300px;
+}
+
+.skill {
+    text-align: center;
+    margin-top: 50px;
+    align-content: center;
+}
+
+.kiri {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.basket {
+    text-align: left;
+}
+
+.basket1 {
+    min-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.bulutangkis {
+    max-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.olga{
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.catur {
+    text-align: left;
+}
+
+.catur1 {
+    max-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.box {
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.hardskill, .softskill {
+    min-width: 600px;
+    min-height: auto;
+    background-color: darkgray;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px ;
+    margin: 40px 10px 10px 10px;
+}
+
+.hardskill:hover, .softskill:hover {
+    background-color: #918f8f;
+    color: white;
+}
+
+.sosmed{
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.border-kiri img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.border-tengah img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.border-kanan img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.border-kiri, .border-tengah, .border-kanan {
+    width: 300px;
+    min-height: 320px;
+    background-color: darkgray;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+    justify-content: center;
+}
+
+.border-kiri:hover, .border-tengah:hover, .border-kanan:hover {
+    background-color: #918f8f;
+    color: white;
+}
